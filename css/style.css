@@ -1,0 +1,23 @@
+* {
+    margin:0; padding:0; box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+#layout{
+    width:400px; margin:auto;  border: 1px solid red;
+}
+h2 {
+    display: none;
+}
+#slideArea {
+    touch-action: none;
+    overflow: hidden;
+}
+#slide {
+    display:flex; width:1600px; 
+    position:relative; left:-400px;
+}
+#slide img {
+    width:400px;
+}
